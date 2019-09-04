@@ -1,0 +1,24 @@
+wget http://mirrors.aliyun.com/linux-kernel/v3.x/linux-3.18.24.tar.xz
+wget http://mirrors.aliyun.com/linux-kernel/v3.x/patch-3.18.24.xz
+tar -xvf linux-3.18.24.tar.xz
+xz -d patch-3.18.24.xz | patch –p1
+apt-get install libncurses5-dev libssl-dev
+apt-get install bc
+cp /boot/config-`uname -r` .config
+
+make mrproper
+cp /boot/config-`uname -r` .config
+make menuconfig
+
+make 
+make modules
+make modules_install
+make install
+
+
+wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.24-vivid/linux-headers-3.18.24-031824_3.18.24-031824.201511031331_all.deb
+wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.24-vivid/linux-headers-3.18.24-031824-generic_3.18.24-031824.201511031331_amd64.deb
+wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.24-vivid/linux-image-3.18.24-031824-generic_3.18.24-031824.201511031331_amd64.deb
+sudo dpkg -i linux-headers-3.18.24*.deb linux-image-3.18.24*.deb
+sudo update-grub 
+sudo reboot
