@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="x-strict"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>登录</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./js/ext-all.js" type="text/javascript"></script>
+	<link href="./css/foundation.min.css" rel="stylesheet" type="text/css">
+	<link href="./css/app.css" rel="stylesheet" type="text/css">
+</head>
+<body class="x-body x-webkit x-chrome x-mac" id="ext-gen1018">
+<div class="row">
+	<div class="large-8 columns">
+		<img src="img/background.jpg" style="width: 100%; hegiht: 100%">
+	</div>
+
+	<div class="large-4 columns">
+		<div style="margin: 50px 0 0 0">
+			<form>
+				<div class="row">
+					<div class="small-3 columns">
+						<label for="editLoginName" class="text-right middle">登录名</label>
+					</div>
+					<div class="small-9 columns">
+						<input type="text" id="editLoginName">
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-3 columns">
+						<label for="editPassword" class="text-right middle">密码</label>
+					</div>
+					<div class="small-9 columns">
+						<input type="password" id="editPassword">
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-3 columns">&nbsp;</div>
+					<div class="small-6 columns">
+						<a href="#" class="button expanded psi_secondary" id="buttonOK">登&nbsp;&nbsp;录</a>
+					</div>
+					<div class="small-3 columns">&nbsp;</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="callout alert" id="divInfoCallout" style="display: none" data-closable="">
+			<div id="divInfo"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	Ext.onReady(function() {
+		var ip = "";
+		var cname = "";
+		if (window.returnCitySN) {
+			ip = returnCitySN.cip;
+			cname = returnCitySN.cname;
+		}
+
+		BASE_URL = "/";
+
+		var editLoginName = document.getElementById("editLoginName");
+		var editPassword = document.getElementById("editPassword");
+		var loginName = Ext.util.Cookies.get("PSI_user_login_name");
+		if (loginName) {
+			editLoginName.value = decodeURIComponent(loginName);
+			editPassword.focus();
+		} else {
+			editLoginName.focus();
+		}
+
+		editLoginName.onkeydown = function(e) {
+			if (e.keyCode == 13) {
+				editPassword.focus();
+			}
+		};
+		editPassword.onkeydown = function(e) {
+			if (e.keyCode == 13) {
+				doLogin(editLoginName.value, editPassword.value, ip, cname);
+			}
+		}
+		document.getElementById("buttonOK").onclick = function() {
+			doLogin(editLoginName.value, editPassword.value, ip, cname);
+		}
+	});
+
+	function doLogin(loginName, password, ip, ipFrom) {
+		if (!loginName) {
+			showInfo("没有输入登录名");
+			setInputFocus();
+			return;
+		}
+		if (!password) {
+			showInfo("没有输入密码");
+			setInputFocus();
+			return;
+		}
+
+		var r = {
+			url : BASE_URL + "login.php",
+			method : "POST",
+			params : {
+				loginName : loginName,
+				password : password,
+				ip : ip,
+				ipFrom : ipFrom
+			},
+			callback : function(options, success, response) {
+				if (success) {
+					showInfo(response.responseText);
+					setInputFocus();
+				}
+			}
+		};
+
+		Ext.Ajax.request(r);
+	}
+
+	function setInputFocus() {
+		var editLoginName = document.getElementById("editLoginName");
+		var editPassword = document.getElementById("editPassword");
+		if (editLoginName.value) {
+			editPassword.focus();
+		} else {
+			editLoginName.focus();
+		}
+	}
+
+	function showInfo(info) {
+		document.getElementById("divInfoCallout").style.display = "";
+		document.getElementById("divInfo").innerHTML = info;
+	}
+</script>
+    
+</body></html>

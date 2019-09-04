@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7ca3be7-3fb2-4c36-b109-12f008a332f8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WebServer/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2405#2406#0" expanded="true" />
+                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WebServer/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WebServer/WorkThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WebServer/MultiThreadWebServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/WebServer.WorkThread">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>WebServer.WorkThread</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+                <node x="18.5" y="180.0">WebServer.WorkThread</node>
+                <node x="18.5" y="79.0">java.lang.Runnable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+                  <point x="0.0" y="-25.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="WebServer.WorkThread" target="java.lang.Runnable">
+                  <point x="0.0" y="-25.5" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-231.0" y="-19.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>debug</find>
+      <find>pri</find>
+      <find>printl</find>
+      <find>println</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/WebServer</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/leetcode/l9.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/hw5.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/l10.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h2.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h3.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/1" />
+        <option value="$PROJECT_DIR$/src/JCourse/h4.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h6.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h7.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h8.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h9.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h10.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h11.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h12.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h14.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h15.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h16.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h17.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/hw6.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h13.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h22.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h23.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h24.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h25.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h26.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h27.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h21.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h28.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/hw8.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h34.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h32.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h31.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h33.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h37.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h39.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h36.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h35.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h38.java" />
+        <option value="$PROJECT_DIR$/src/Practice/thread.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Timer.java" />
+        <option value="$PROJECT_DIR$/src/Practice/TimerTest.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/WebServer.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/MultiWebServer.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/SimpleHttpServer.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/web/Request.java" />
+        <option value="$PROJECT_DIR$/src/JCourse/h1.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/HttpServer.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/MultiThreadWebServer.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/WorkThread.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/Request.java" />
+        <option value="$PROJECT_DIR$/src/WebServer/Response.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="41" />
+    <option name="y" value="23" />
+    <option name="width" value="1399" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="WebServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557416919897" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MultiThreadWebServer">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebServer.HttpServer" />
+      <module name="hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebServer.MultiThreadWebServer" />
+      <module name="hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebServer.MultiWebServer" />
+      <module name="hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebServer.SimpleHttpServer" />
+      <module name="hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="h1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JCourse.h1" />
+      <module name="hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MultiThreadWebServer" />
+        <item itemvalue="Application.HttpServer" />
+        <item itemvalue="Application.h1" />
+        <item itemvalue="Application.SimpleHttpServer" />
+        <item itemvalue="Application.MultiWebServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ca3be7-3fb2-4c36-b109-12f008a332f8" name="Default Changelist" comment="" />
+      <created>1553355028495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553355028495</updated>
+      <workItem from="1553355031328" duration="2786000" />
+      <workItem from="1553439429740" duration="4151000" />
+      <workItem from="1553533411998" duration="1068000" />
+      <workItem from="1553534514165" duration="996000" />
+      <workItem from="1553587673442" duration="3777000" />
+      <workItem from="1553692600354" duration="2565000" />
+      <workItem from="1553791069505" duration="638000" />
+      <workItem from="1553862592116" duration="5388000" />
+      <workItem from="1554521250070" duration="3234000" />
+      <workItem from="1554610629942" duration="1160000" />
+      <workItem from="1555221118340" duration="1344000" />
+      <workItem from="1555232660573" duration="598000" />
+      <workItem from="1555826906100" duration="1042000" />
+      <workItem from="1556088809558" duration="2834000" />
+      <workItem from="1557230402730" duration="18625000" />
+      <workItem from="1557289653625" duration="8884000" />
+      <workItem from="1557335427354" duration="22000" />
+      <workItem from="1557388024490" duration="397000" />
+      <workItem from="1557415004031" duration="2101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61610000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="43" y="23" width="1397" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18228783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22756827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39726028" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32982087" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3256059" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.19656488" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/l3.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h10.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h11.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h12.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h17.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h16.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h15.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h14.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h13.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/Test40036.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/hw6.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h21.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h22.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h23.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h24.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h25.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h26.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h27.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h28.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/hw8.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h34.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h37.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/hw5.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h39.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h36.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h35.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h38.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h33.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h32.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h31.java" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/thread.java" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/TimerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/WebServer/MultiWebServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/WebServer/SimpleHttpServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCourse/h1.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="121" column="30" lean-forward="true" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="205" column="5" lean-forward="true" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServer/HttpServer.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="669" column="15" selection-start-line="669" selection-start-column="15" selection-end-line="669" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+          <folding>
+            <element signature="e#20527#20528#0" expanded="true" />
+            <element signature="e#20570#20571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/WebServer.MultiThreadWebServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>WebServer.MultiThreadWebServer</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">WebServer.MultiThreadWebServer</node>
+            <node x="" y="">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="93.99999999999994" y="109.45454545454544" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/WebServer.WorkThread">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>WebServer.WorkThread</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="18.5" y="180.0">WebServer.WorkThread</node>
+            <node x="18.5" y="79.0">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="WebServer.WorkThread" target="java.lang.Runnable">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-231.0" y="-19.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServer/MultiThreadWebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServer/WorkThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/WebServer.Request">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>WebServer.Request</OriginalElement>
+          <nodes>
+            <node x="" y="">WebServer.Request</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="114.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServer/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/WebServer.Response">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>WebServer.Response</OriginalElement>
+          <nodes>
+            <node x="" y="">WebServer.Response</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="53.99999999999994" y="14.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServer/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
