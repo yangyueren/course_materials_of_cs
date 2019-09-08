@@ -8,6 +8,8 @@ jjm老师给分很好，平时分基本会给满。
 
 其他题刷一刷，打印的三张纸用的是GitHub的的纸，原理部分第三张用处不大，把实验部分加上去。
 
+参考链接：@[Riroaki](https://github.com/Riroaki/Linux-myext2)
+
 
 
 ### java应用技术
